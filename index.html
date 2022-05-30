@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sticky Navigation Bar - EASY TUTORIALS</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <nav id="navbar">
+                <img src="./images/logo.png" class="logo">
+                <ul id="menu">
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>PRODUCT</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </div>
+
+        <p class="text">
+            Lorem ipsum dolor sit amet, impedit dissentiet eum eu, id sea mutat
+            legimus molestiae. Qui ei vitae electram, ad cum minimum facilisi. Mel
+            no laudem vivendo, oportere philosophia nam no. Ea pri suas fugit
+            munere, mei ex verteram argumentum voluptatibus. At eam principes
+            signiferumque. Vel quis omnis iisque ea. Cu eum partiendo percipitur,
+            novum patrioque reformidans in eos. Ad movet persecuti eos, eum ex
+            dicunt docendi. Graece virtute duo no. Te eos tantas postea, ut habeo
+            ceteros apeirian est, cum labitur electram cu. Vim eu possit urbanitas
+            interesset, vis aeterno iudicabit te. Mel ne democritum dissentiunt.
+            Legere diceret nominavi pro ne, modus lorem ullamcorper mea eu, omnis
+            nonumy discere has id. Tota soleat menandri eu cum. Dictas mediocrem pro
+            id, sea magna facilisis ea. Soleat recusabo an est
+        </p>
+
+        <p class="text">
+            Lorem ipsum dolor sit amet, impedit dissentiet eum eu, id sea mutat
+            legimus molestiae. Qui ei vitae electram, ad cum minimum facilisi. Mel
+            no laudem vivendo, oportere philosophia nam no. Ea pri suas fugit
+            munere, mei ex verteram argumentum voluptatibus. At eam principes
+            signiferumque. Vel quis omnis iisque ea. Cu eum partiendo percipitur,
+            novum patrioque reformidans in eos. Ad movet persecuti eos, eum ex
+            dicunt docendi. Graece virtute duo no. Te eos tantas postea, ut habeo
+            ceteros apeirian est, cum labitur electram cu. Vim eu possit urbanitas
+            interesset, vis aeterno iudicabit te. Mel ne democritum dissentiunt.
+            Legere diceret nominavi pro ne, modus lorem ullamcorper mea eu, omnis
+            nonumy discere has id. Tota soleat menandri eu cum. Dictas mediocrem pro
+            id, sea magna facilisis ea. Soleat recusabo an est
+        </p>
+
+        <p class="text">
+            Lorem ipsum dolor sit amet, impedit dissentiet eum eu, id sea mutat
+            legimus molestiae. Qui ei vitae electram, ad cum minimum facilisi. Mel
+            no laudem vivendo, oportere philosophia nam no. Ea pri suas fugit
+            munere, mei ex verteram argumentum voluptatibus. At eam principes
+            signiferumque. Vel quis omnis iisque ea. Cu eum partiendo percipitur,
+            novum patrioque reformidans in eos. Ad movet persecuti eos, eum ex
+            dicunt docendi. Graece virtute duo no. Te eos tantas postea, ut habeo
+            ceteros apeirian est, cum labitur electram cu. Vim eu possit urbanitas
+            interesset, vis aeterno iudicabit te. Mel ne democritum dissentiunt.
+            Legere diceret nominavi pro ne, modus lorem ullamcorper mea eu, omnis
+            nonumy discere has id. Tota soleat menandri eu cum. Dictas mediocrem pro
+            id, sea magna facilisis ea. Soleat recusabo an est
+        </p>
+
+        <p class="text">
+            Lorem ipsum dolor sit amet, impedit dissentiet eum eu, id sea mutat
+            legimus molestiae. Qui ei vitae electram, ad cum minimum facilisi. Mel
+            no laudem vivendo, oportere philosophia nam no. Ea pri suas fugit
+            munere, mei ex verteram argumentum voluptatibus. At eam principes
+            signiferumque. Vel quis omnis iisque ea. Cu eum partiendo percipitur,
+            novum patrioque reformidans in eos. Ad movet persecuti eos, eum ex
+            dicunt docendi. Graece virtute duo no. Te eos tantas postea, ut habeo
+            ceteros apeirian est, cum labitur electram cu. Vim eu possit urbanitas
+            interesset, vis aeterno iudicabit te. Mel ne democritum dissentiunt.
+            Legere diceret nominavi pro ne, modus lorem ullamcorper mea eu, omnis
+            nonumy discere has id. Tota soleat menandri eu cum. Dictas mediocrem pro
+            id, sea magna facilisis ea. Soleat recusabo an est
+        </p>
+
+        <script>
+            var navbar = document.getElementById("navbar");
+            var menu = document.getElementById("menu");
+
+            window.onscroll = function(){
+                if(window.pageYOffset >= menu.offsetTop){
+                    navbar.classList.add("sticky");
+                }
+                else{
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+</html>
